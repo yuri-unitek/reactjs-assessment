@@ -5,6 +5,7 @@
 <div align="left">
 <strong>Assignment</strong>
 <p>
+
 Create single page web application that works with https://www.omdbapi.com using ReactJS & Bootstrap 5
 
 Place the search text box when first loading.
@@ -19,7 +20,9 @@ https://www.omdbapi.com/?apikey={apiKey}&s=${query}&page=${pageNum}
 <div class="left">
 <strong>Required stacks</strong>
 <p>
+
 ReactJS 17.0.1 above
+
 Bootstrap 5
 </p>
 </div>
@@ -27,6 +30,7 @@ Bootstrap 5
 <div class="left">
 <strong>Requirements</strong>
 <p>
+
 useContext instead of react-redux or other store management library
 
 prevent redundant rendering
@@ -40,6 +44,7 @@ pagination
 <div class="left">
 <strong>We will see</strong>
 <p>
+
 How you architecture the ReactJS app
 
 How you use ReactJS provided features
@@ -51,14 +56,28 @@ How you integrate with APIs
 <div class="left">
 <strong>How to contribute</strong>
 <p>
+
 Clone this repository and create pull request with your name branch.
 (Including docker file is appreciated) 
 </p>
 </div>
 
+![Sample Screen](https://github.com/yuri-unitek/reactjs-assessment/blob/master/screen%20design.png)
+
+
 <div class="left">
 <strong>Contact</strong>
 <p>
-Please contact Dhanya Jayachandra(dhanya@bpi-unitek.com) Aneek Barman Roy(aneek@bpi-unitek.com) or Yuri Ren(yuri.ren@unitek.ai) if you have questions.
+
+If you have questions
+ 
+Please contact
+
+Dhanya Jayachandra(dhanya@bpi-unitek.com)
+
+Aneek Barman Roy(aneek@bpi-unitek.com) 
+
+Yuri Ren(yuri.ren@unitek.ai)
+
 </p>
 </div>
