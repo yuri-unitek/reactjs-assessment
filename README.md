@@ -57,8 +57,8 @@ How you integrate with APIs
 <strong>How to contribute</strong>
 <p>
 
-Clone this repository and create pull request with your name branch.
-(Including docker file is appreciated) 
+Fork this repository and create pull request.
+(Docker based solution is appreciated) 
 </p>
 </div>
 
