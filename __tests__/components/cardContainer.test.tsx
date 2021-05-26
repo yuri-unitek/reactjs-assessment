@@ -15,7 +15,7 @@ describe('cardContainer component Tests',()=>{
 
 function genFakeData(){
     const data = []
-    const movie:IMovieCard = {title:'title',poster:'img',type:'type',year:'2020'};
+    const movie:IMovieCard = {Title:'title',Poster:'img',Type:'type',Year:'2020'};
     for(var i=0; i< 10; i++){
         data.push(movie);
     }

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Container from 'react-bootStrap/Container';
 import Row from 'react-bootStrap/Row';
 import Col from 'react-bootStrap/Col';
@@ -17,15 +17,16 @@ const CardContainer: React.FC<ICardContainerProps> = ({ data }) => {
 
     const firstFive = data.slice(0, 5);
     const secondFive = data.slice(5);
+    console.log(data);
     const row1 = <Row className='card_container_row'>{firstFive.map((item, idx) => {
         return (
             <Col key={idx}>
                 <MovieCard
                     key={idx}
-                    title={item.title}
-                    poster={item.poster}
-                    year={item.year}
-                    type={item.type}
+                    Title={item.Title}
+                    Poster={item.Poster}
+                    Year={item.Year}
+                    Type={item.Type}
                 />
             </Col>
         );
@@ -38,9 +39,9 @@ const CardContainer: React.FC<ICardContainerProps> = ({ data }) => {
             <Col key={idx}>
                 <MovieCard
                     key={idx}
-                    title={item.title}
+                    Title={item.Title}
                     poster={item.poster}
-                    year={item.year}
+                    Year={item.Year}
                     type={item.type}
                 />
             </Col>

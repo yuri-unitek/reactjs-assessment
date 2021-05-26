@@ -13,8 +13,16 @@
     margin-top: 1rem!important;
 }
 
-.results button {
-    background: white;
+.results_button {
+    background: white !important;
+    margin-left: 5px;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+}
+
+.results_button:hover {
+    background: black !important;
+    color: white !important;
     margin-left: 5px;
     margin-bottom: 1rem!important;
     margin-top: 1rem!important;

@@ -2,10 +2,10 @@ import React from 'react';
 import Card from 'react-bootStrap/Card';
 
 export interface IMovieCard {
-    title: string,
-    year: string,
-    type:string,
-    poster: string
+    Title: string,
+    Year: string,
+    Type:string,
+    Poster: string
 }
 
 /**
@@ -14,13 +14,13 @@ export interface IMovieCard {
  * @param {*} { title, poster, year, type }
  * @return {*} returns a card 
  */
-const MovieCard: React.FC<IMovieCard> = ({ title, poster, year, type }) => {
+const MovieCard: React.FC<IMovieCard> = ({ Title, Poster, Year, Type }) => {
     return <Card className='movie_card'>
-        <Card.Img variant="top" src={poster} />
+        <Card.Img variant="top" src={Poster} />
         <Card.Body className='movie_card_body'>
-            <Card.Title >{title}</Card.Title>
-            <Card.Text>{year}</Card.Text>
-            <Card.Text>{type}</Card.Text>
+            <Card.Title >{Title}</Card.Title>
+            <Card.Text>{Year}</Card.Text>
+            <Card.Text>{Type}</Card.Text>
         </Card.Body>
     </Card>;
 }
