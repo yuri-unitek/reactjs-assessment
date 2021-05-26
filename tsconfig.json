@@ -16,7 +16,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve" // React - for running tests.. next changes this back to preserve when you do npm run dev
   },
   "include": [
     "next-env.d.ts",

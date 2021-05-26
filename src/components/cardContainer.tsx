@@ -40,9 +40,9 @@ const CardContainer: React.FC<ICardContainerProps> = ({ data }) => {
                 <MovieCard
                     key={idx}
                     Title={item.Title}
-                    poster={item.poster}
+                    Poster={item.Poster}
                     Year={item.Year}
-                    type={item.type}
+                    Type={item.Type}
                 />
             </Col>
         );
