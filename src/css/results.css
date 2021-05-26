@@ -1,0 +1,51 @@
+.results_form {
+    display: flex;
+    justify-content: center;
+    background: rgba(24, 24, 24, 0.8);
+    position: relative;
+    padding: 20px;
+}
+
+.results_input {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+}
+
+.results button {
+    background: white;
+    margin-left: 5px;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+}
+
+.results_pagination {
+    background: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 15%);
+    background: rgba(24, 24, 24, 0.8);
+    padding-bottom: 10px;
+}
+
+.results_alert {
+    text-align: center;
+}
+
+.card_container_row {
+    display: flex;
+    flex-direction: row;
+    margin: 20px !important;
+    justify-content: space-around;
+}
+
+.movie_card {
+    width: 18rem;
+    min-height: 575px;
+}
+
+.movie_card_body {
+    text-align: center;
+    align-items: center;
+}
