@@ -1,7 +1,7 @@
 // import React from 'react';
-import Container from 'react-bootStrap/Container';
-import Row from 'react-bootStrap/Row';
-import Col from 'react-bootStrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import MovieCard, { IMovieCard } from "./movieCard";
 
 export interface ICardContainerProps {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from 'react-bootStrap/Card';
+import Card from 'react-bootstrap/Card';
 
 export interface IMovieCard {
     Title: string,

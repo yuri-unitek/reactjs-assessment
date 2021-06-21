@@ -4,6 +4,7 @@
     "description": "react spa using omdb api",
     "main": "dist/server.js",
     "scripts": {
+        "docker": "docker build . && docker-compose up",
         "dev": "next",
         "build": "next build",
         "start": "next start",

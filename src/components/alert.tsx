@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Alert from 'react-bootStrap/Alert';
+import Alert from 'react-bootstrap/Alert';
 
 export interface IAlert { 
     headerText:string,

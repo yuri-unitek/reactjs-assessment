@@ -3,7 +3,7 @@ import React from 'react';
 import type { AppProps /*, AppContext */ } from 'next/app';
 import "../css/index.css";
 import "../css/results.css";
-import "bootstrap/dist/css/bootStrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />

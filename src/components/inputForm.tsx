@@ -1,8 +1,8 @@
 import React from 'react';
-import InputGroup from 'react-bootStrap/InputGroup';
-import FormControl from 'react-bootStrap/FormControl';
-import Button from 'react-bootStrap/Button';
-import Form from 'react-bootStrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+import FormControl from 'react-bootstrap/FormControl';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 export interface IInputFormProps {
     confirmClick:  (e: any) => void;

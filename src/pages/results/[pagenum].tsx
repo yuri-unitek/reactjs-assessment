@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import Router, { useRouter } from 'next/router'
 import { IMovieResponse, MovieProvider } from '../../services/movieProvider';
 import CardContainer from "../../components/cardContainer";
-import Pagination from 'react-bootStrap/Pagination';
+import Pagination from 'react-bootstrap/Pagination';
 import InputForm from '../../components/inputForm';
 import AlertComponent from "../../components/alert";
 import fetch from 'node-fetch';
